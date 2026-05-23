@@ -1,0 +1,273 @@
+.layout{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  padding: 200px;
+}
+h1{
+  font-size: 48px;  
+  padding-bottom: 15px;
+  color: azure;
+}
+h2{
+  font-size: 32px;  
+  padding-top: 15px;
+  color: azure;
+  font-weight: 200;
+}
+
+
+.background_img{
+  background-image: url('/img/mainbg.png');  /* 背景画像を設定 */
+  background-size: cover;                /* 画像を要素にフィットさせる */
+  background-position: center;
+  width: 100%;                           /* 要素の幅を100%に設定 */
+  height: 500px;                         /* 高さを500ピクセルに設定 */
+  text-align: center;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+.img-logo{
+  height: 80px;
+  margin: 20px;
+}
+
+.header_menu{
+  display: flex;
+  justify-content: flex-end; /* 子要素を右寄せ */
+  list-style: none;          /* デフォルトの点を消す */
+  padding: 0;
+  margin: 0;
+}
+.header_menu a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 30px 0;
+}
+
+.header_menu a:hover {
+  background-color: yellow;
+  color: orangered;
+}
+
+
+.ABOUT{
+  margin: 50px 25px; 
+}
+.COURSE{
+  margin: 50px 25px;
+}
+.NEWS{
+  margin: 50px 25px;
+}
+.ACCESS{
+  margin: 50px 25px;
+}
+.CONTACT{
+  margin: 50px 25px;
+}
+
+
+h3{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+}
+h4{
+  font-size: 18px;
+}
+
+.photo1{
+  width: 1200px;
+  height: auto;
+}
+
+.twobox1{
+  display: flex;
+}
+.twobox2{
+  display: flex;
+}
+.twobox3{
+  display: flex;
+}
+
+.noujo{
+  width: 600px;
+  height: auto;
+}
+.jyugyou{
+  width: 600px;
+  height: auto;
+}
+.baiking{
+  width: 600px;
+  height: auto;
+}
+
+.cardcontent2{
+ background-color: #fafafa;
+ width: 600px;
+ text-align: left;
+}
+.cardcontent3{
+ background-color: #fafafa;
+ width: 600px;
+  text-align: left;
+}
+.cardcontent6{
+ background-color: #fafafa;
+ width: 600px;
+ text-align: left;
+}
+
+.newsbox{
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+.newsbox :hover{
+  background-color: yellow;
+  color: orangered;
+}
+.morebotton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd61a;
+  width: 300px;
+  height: 60px;
+}
+.morebotton0 :hover{
+  background-color: orangered;
+  color: white;
+}
+
+#access{
+  background-color: #fafafa;
+}
+
+.jouhou{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.jouhou-left p{
+  padding: 15px;
+}
+.jouhou-right p{
+  padding: 15px;
+}
+.seiretu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toiawaseform{
+  font-size: 14px;
+}
+
+.waku{
+  width: 640px;
+  text-align: left;
+}
+.waku input{
+  margin: 8px;
+  width: 328px; 
+  height: 36px;
+  color: #bfbfbf;
+}
+.waku hr{
+  width: 640px;
+  color: #bfbfbf;
+  margin: 8px;
+}
+
+.checkbox1 input{
+  background-color:#bfbfbf;
+  color: #bfbfbf;
+  
+}
+
+
+.sousinbotton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd61a;
+  font-size: 24px;
+  color: #fafafa;
+  width: 300px;
+  height: 60px;
+  border: none;
+}
+.sousinbotton0 :hover{
+  background-color: orangered;
+  color: white;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* デザインを追加 */
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  background-color: #bfbfbf;
+}
+input[type="checkbox"]::after {
+    content: "";
+  position: absolute;
+  top: -1px;
+  left: 6px;
+  width: 6px;
+  height: 12px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+input[type="checkbox"]:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+input[type="checkbox"]:checked::after{
+  opacity: 1;
+}
+
+.border{
+  position:absolute;/*絶対位置指定*/
+  left:240px;/*横位置の指定*/
+  background:#bfbfbf;/*線の色指定*/
+  width:3px;/*線の幅指定*/
+  height:130%;/*線の高さ指定*/
+}
+.borderX{
+  position:absolute;/*絶対位置指定*/
+  left:240px;/*横位置の指定*/
+  background:#bfbfbf;/*線の色指定*/
+  width:3px;/*線の幅指定*/
+  height:115%;/*線の高さ指定*/
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #707070;
+  color: #fafafa;
+  font-weight: 100;
+}
